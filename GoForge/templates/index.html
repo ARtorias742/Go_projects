@@ -1,0 +1,9 @@
+{{define "content"}}
+    <h1>{{.Title}}</h1>
+    <p>{{.Message}}</p>
+    {{ "Click Me" | button }}
+    <form method="POST" action="/submit">
+        <input type="text" name="name" placeholder="Enter your name">
+        <input type="submit" value="Submit">
+    </form>
+{{end}}

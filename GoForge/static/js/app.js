@@ -1,0 +1,1 @@
+console.log("AdvGoFront JS loaded!");
